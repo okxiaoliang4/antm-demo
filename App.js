@@ -1,25 +1,194 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Button } from 'antd-mobile';
+import {StyleSheet, Text, View, ScrollView, TouchableNativeFeedback} from 'react-native';
+import {Drawer} from 'antd-mobile';
 
 export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-          <Button>antd-mobile-button</Button>
-      </View>
-    );
-  }
+    render() {
+        const slideBar = (
+            <ScrollView showsVerticalScrollIndicator={false}>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback><TouchableNativeFeedback
+                onPress={() => {
+                }}
+                background={TouchableNativeFeedback.SelectableBackground()}>
+                <View>
+                    <Text style={styles.drawer_item}>Jelf1</Text>
+                </View>
+            </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => {
+                    }}
+                    background={TouchableNativeFeedback.SelectableBackground()}>
+                    <View>
+                        <Text style={styles.drawer_item}>Jelf1</Text>
+                    </View>
+                </TouchableNativeFeedback>
+            </ScrollView>
+        );
+        return (
+            <View style={styles.container}>
+                <Drawer sidebar={slideBar} open={false} drawerBackgroundColor="#fff" drawerWidth={265}></Drawer>
+            </View>
+        );
+    }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+    },
+    drawer_item: {
+        padding: 10
+    }
 });
